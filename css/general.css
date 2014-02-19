@@ -64,6 +64,7 @@ h1 {
     letter-spacing: -.1rem;
     text-transform: uppercase;
     padding: 0.25rem 8%;
+    
 }
 
 h1 span {
@@ -74,11 +75,14 @@ p span {
     color: brown;
 }
 
-
+h2 {
+    color: brown; 
+    text-shadow: .15rem .15rem .05rem rgba(225, 204, 153, .8);
+}
 
 h4 {
     margin: 1rem 0 0 0; 
-    background-color: black;
+    background-color: brown;
     font-family: Franklin Gothic Medium, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 2.25rem;
