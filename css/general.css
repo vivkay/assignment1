@@ -70,6 +70,12 @@ h1 span {
     color: black;
 }
 
+p span {
+    color: brown;
+}
+
+
+
 h4 {
     margin: 1rem 0 0 0; 
     background-color: black;
