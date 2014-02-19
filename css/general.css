@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    height: 100%;
+    background-size: 100%;
+    background-image: url(../images/banner.jpg)
+    background-repeat: no-repeat;
+    
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+.masthead {
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/banner.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30rem;
+}
+
+
+h1 {
+    margin: 6rem 0;
+    background-color: rgba(224, 207, 187, .8);
+    font-family: Franklin Gothic Medium, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3.25rem;
+    color: #b5946d;
+    letter-spacing: -.1rem;
+    text-transform: uppercase;
+    padding: .25rem 5%;
+}
+    
