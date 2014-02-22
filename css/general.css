@@ -36,13 +36,17 @@ body {
     padding: 0;
 }
 
+article {
+    margin: 5%;
+}
+
 .masthead {
     background-color: #99cccc;
     overflow: hidden;
 }
 
 .logo {
-    height: 4.5rem;
+    height: 4rem;
     width: auto;
     margin: .5rem 5%;
 }
@@ -56,7 +60,6 @@ body {
     background-size: 100%;
 }
 
-
 h1 {
     margin: 8rem 0 1rem 0; 
     background-color: rgba(255, 200, 150, .8);
@@ -64,38 +67,50 @@ h1 {
     font-weight: bold;
     font-size: 2.25rem;
     color: white;
-    letter-spacing: -.1rem;
+    letter-spacing: -.05rem;
     text-transform: uppercase;
-    padding: 0.25rem 8%;
+    padding: 0.25rem 5%;
+    text-shadow: .15rem .15rem .05rem rgba(255, 102, 102, .8)
 }
 
 h1 span {
     color: #cc3333;
-}
-
-p span {
-    color: #cc3333;
+    text-shadow: .15rem .15rem .05rem rgba(255, 255, 255, .8);
 }
 
 h2 {
     color: #cc3333; 
-    font-size: 1.5rem;
+    font-size: 1.rem;
     line-height: .5rem;
     }
 
 h2 span {
     font-size: 1rem;
     color: #99cccc;
-    font-weight: 300;
-        
+    font-weight: 300;       
+}
+
+p {
+    font-size: 1rem;
+    font-family: Calibri, Tahoma, sans-serif;
+    line-height: 1.25rem;
+}
+
+p span {
+    color: #cc3333;
 }
 
 h3 {
-    color: black;
+    color: #cc3333;
+    font-weight: 500;
+}
+
+summary {
+    color: #ff6666;
 }
 
 h4 {
-    margin: 1rem 0 0 0; 
+    margin: 1rem -10%; 
     background-color: #ff6666;
     font-family: Franklin Gothic Medium, Helvetica, sans-serif;
     font-weight: normal;
@@ -106,15 +121,15 @@ h4 {
 }
 
 h5 {
-    margin: 0rem 5%;
+    margin: 2rem 0rem 2rem 0;
+    padding: 0.25rem 10%;
     background-color: #99cccc;
     font-family: Franklin Gothic Medium, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 2.25rem;
     color: white;
     text-transform: uppercase;
-    padding: 0.25rem 10%;
-    }
+}
 
 footer {
     background-color: #99cccc;
@@ -123,10 +138,3 @@ footer {
     font-size: .75rem;
     font-weight: 200;
 }
-
-
-
-
- text-shadow: .15rem .15rem .05rem rgba(225, 204, 153, .8);
-    
-    
