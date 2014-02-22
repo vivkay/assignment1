@@ -116,6 +116,13 @@ h5 {
     padding: 0.25rem 10%;
     }
 
+footer {
+    background-color: #99cccc;
+    overflow: hidden;
+    color: white;
+    font-size: .75rem;
+    font-weight: 200;
+}
 
 
 
