@@ -23,9 +23,7 @@ html {
     
     height: 100%;
     background-size: 100%;
-    background-image: url(../images/banner.jpg)
     background-repeat: no-repeat;
-    
 }
 
 img {
@@ -33,15 +31,20 @@ img {
     display: block;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .masthead {
-    background-color: black;
+    background-color: #99cccc;
     overflow: hidden;
 }
 
 .logo {
     height: 4.5rem;
     width: auto;
-    margin: .t5rem 5%;
+    margin: .5rem 5%;
 }
 
 .billboard {
@@ -55,37 +58,66 @@ img {
 
 
 h1 {
-    margin: 1rem 0 8rem 0; 
-    background-color: rgba(225, 204, 153, .8);
+    margin: 8rem 0 1rem 0; 
+    background-color: rgba(255, 200, 150, .8);
     font-family: Franklin Gothic Medium, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2.25rem;
-    color: maroon;
+    color: white;
     letter-spacing: -.1rem;
     text-transform: uppercase;
     padding: 0.25rem 8%;
-    
 }
 
 h1 span {
-    color: black;
+    color: #cc3333;
 }
 
 p span {
-    color: brown;
+    color: #cc3333;
 }
 
 h2 {
-    color: brown; 
-    text-shadow: .15rem .15rem .05rem rgba(225, 204, 153, .8);
+    color: #cc3333; 
+    font-size: 1.5rem;
+    line-height: .5rem;
+    }
+
+h2 span {
+    font-size: 1rem;
+    color: #99cccc;
+}
+
+h3 {
+    color: black;
 }
 
 h4 {
     margin: 1rem 0 0 0; 
-    background-color: brown;
+    background-color: #ff6666;
     font-family: Franklin Gothic Medium, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 2.25rem;
     color: white;
     text-transform: uppercase;
     padding: 0.25rem 8%;
+}
+
+h5 {
+    margin: 0rem 5%;
+    background-color: #99cccc;
+    font-family: Franklin Gothic Medium, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.25rem 10%;
+    }
+
+
+
+
+
+ text-shadow: .15rem .15rem .05rem rgba(225, 204, 153, .8);
+    
+    
