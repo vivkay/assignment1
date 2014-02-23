@@ -3,9 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 294.416 293.953" enable-background="new 0 0 294.416 293.953" xml:space="preserve">
-<circle fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" cx="139.034" cy="154.919" r="136.515"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" cx="146.972" cy="139.034" r="136.515"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="5.12" stroke-miterlimit="10" cx="152.046" cy="150.887" r="139.791"/>
-<text transform="matrix(1 0 0 1 50.9153 170.2105)" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" font-family="'BrainFlower'" font-size="114.3465">pop</text>
-<text transform="matrix(1 0 0 1 146.8411 203.609)" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" font-family="'BrainFlower'" font-size="114.3465">pie</text>
+<circle fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" cx="137.951" cy="157.674" r="126.971"/>
+<circle fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" cx="145.334" cy="140.574" r="126.971"/>
+<circle fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" cx="150.053" cy="151.598" r="130.018"/>
+<text transform="matrix(1 0 0 1 47.7235 157.6739)" fill="#FFFFFF" font-family="'Frutiger-Cn'" font-size="80" letter-spacing="-4">POP</text>
+<g>
+	<text transform="matrix(1 0 0 1 148.3363 195.347)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Frutiger-Cn'" font-size="80" letter-spacing="-6">P</tspan><tspan x="32.079" y="0" fill="#FFFFFF" font-family="'Frutiger-Cn'" font-size="80" letter-spacing="-3">IE</tspan></text>
+</g>
 </svg>

@@ -62,7 +62,7 @@ article {
 
 h1 {
     margin: 8rem 0 1rem 0; 
-    background-color: rgba(255, 200, 150, .8);
+    background-color: rgba(255, 204, 153, .6);
     font-family: Franklin Gothic Medium, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2.25rem;
@@ -76,7 +76,7 @@ h1 {
 h1 span {
     color: #cc3333;
     text-shadow: .15rem .15rem .05rem rgba(255, 255, 255, .8);
-}
+    }
 
 h2 {
     color: #cc3333; 
@@ -97,12 +97,14 @@ p {
 }
 
 p span {
-    color: #cc3333;
+    color: #ff6666;
+    text-decoration:none;
 }
 
 h3 {
     color: #cc3333;
     font-weight: 500;
+    line-height: .5rem;
 }
 
 summary {
@@ -110,7 +112,7 @@ summary {
 }
 
 h4 {
-    margin: 1rem -10%; 
+    margin: 1rem -5%; 
     background-color: #ff6666;
     font-family: Franklin Gothic Medium, Helvetica, sans-serif;
     font-weight: normal;
@@ -137,4 +139,9 @@ footer {
     color: white;
     font-size: .75rem;
     font-weight: 200;
+}
+
+h6 {
+    font-size: .75rem;
+    font-weight: lighter;
 }
